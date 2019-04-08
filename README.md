@@ -8,9 +8,9 @@
 4) $ bin/elasticsearch     
 
 ### Insert data into elasticsearch
-     $ curl -H "Content-Type:application/json" -XPOST localhost:9200/test/tweet   -d '{"name":"Satendra", "job":"consultant" , "location":"India", "age":28}'
-     $ curl -H "Content-Type:application/json" -XPOST localhost:9200/test/tweet   -d '{"name":"Rohit", "job":"consultant" , "location":"India", "age":22}'
-     $ curl -H "Content-Type:application/json" -XPOST localhost:9200/test/tweet   -d '{"name":"Mohit", "job":"consultant" , "location":"India", "age":25}'
+     $ curl -H "Content-Type:application/json" -XPOST localhost:9200/test/tweet   -d '{"name":"naveen", "job":"developer" , "location":"Phoenix", "age":27}'
+     $ curl -H "Content-Type:application/json" -XPOST localhost:9200/test/tweet   -d '{"name":"arun", "job":"consultant" , "location":"texas", "age":30}'
+     $ curl -H "Content-Type:application/json" -XPOST localhost:9200/test/tweet   -d '{"name":"shiva", "job":"developer" , "location":"chandler", "age":28}'
  
 
 ### Run project 

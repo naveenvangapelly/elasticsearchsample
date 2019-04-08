@@ -38,15 +38,15 @@ public class ESApp {
 
         //Ingest
         String json1 = "{" +
-                "\"name\":\"skyji\"," +
+                "\"name\":\"chandra\"," +
                 "\"job\":\"Admin\"," +
-                "\"location\":\"India\"" +
+                "\"location\":\"usa\"" +
                 "}";
 
         String json2 = "{" +
-                "\"name\":\"jom\"," +
-                "\"job\":\"assiant\"," +
-                "\"location\":\"Meana\"" +
+                "\"name\":\"vishnu\"," +
+                "\"job\":\"middleware\"," +
+                "\"location\":\"california\"" +
                 "}";
         // ingest single record
         // System.out.println("\nIngestService response::: " +ingestService.ingest("tweet",json) );
